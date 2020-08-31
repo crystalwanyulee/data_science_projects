@@ -53,7 +53,7 @@ Visualization Tools: Tableau
 
 <br />
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1495887633121-f1156ca7f6a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=phad-pichetbovornkul-m2iqRdVGprU-unsplash.jpg">**[3. E-Commerce Customer Segmentation](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/online retail/segmentation)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1495887633121-f1156ca7f6a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=phad-pichetbovornkul-m2iqRdVGprU-unsplash.jpg">**[3. E-Commerce Customer Segmentation](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/online%20retail/segmentation)**
 
 **Purpose:** Identity current customer groups<br/>**Methods:** RFM analysis, K-means, Machine Learning (Clustering)<br/>**Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
 
