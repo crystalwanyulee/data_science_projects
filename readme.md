@@ -23,7 +23,7 @@ R:
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Clothing Reviews Sentiment Analysis](https://github.com/archd3sai/Instacart-Market-Basket-Analysis)**
 
-**Purpose:** Understand customers' attitudes toward the business    **Methods:** Naive Bayes Algorithm, Machine Learning (Classification)                                   **Results:** Applied the algorithm I built from scratch and gained F1 score to 77%. Identified 20 important words for classifying positive and negative words.  
+**Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naive Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** Applied the algorithm I built from scratch and gained F1 score to 77%. Identified 20 important words for classifying positive and negative words.  
 
 <br />
 
@@ -31,7 +31,7 @@ R:
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_exploratory.ipynb)**
 
-**Purpose:** Discover insights from the status quo                                     **Method:** Descriptive Statistics, Cohort Analysis, Visualization                         **Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
+**Purpose:** Discover insights from the status quo <br/>**Method:** Descriptive Statistics, Cohort Analysis, Visualization<br/>**Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
 
 <br />
 
