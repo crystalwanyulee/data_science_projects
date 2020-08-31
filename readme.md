@@ -1,40 +1,30 @@
 # Data Science Portfolio - Crystal Lee
-<img align="middle" width="800" height="400" src="images/cover.jpg">
+
 
 
 
 <p align="center" style="font-size:16pt">
-  <b>Contents</b><br>
-  <a href="#about">About</a> |
-  <a href="#skills">Skills</a> |
-  <a href="#projects">Project</a>  |
-  <a href="#natrual-language-processing">NLP</a>  |  
+  <b>-- Contents --</b><br>
+  <a href="#about">About</a>   |
+  <a href="#skills">Skills</a>   |
+  <a href="#projects">Project</a>    |
+  <a href="#natrual-language-processing">NLP</a>    |  
   <a href="#miscellaneous">Miscellaneous</a>  
+  <br><br>
+  <img align="middle" width="600" height="300" src="images/cover.jpg"
   <br><br>
 
 </p>
 
 
 
-
-
-
-
-
-
 ## About
 
-
-
-Hi all. I am a Master of Science in Business Analytics student at Brandeis University and a professional marketer with 4-year advertising experiences. I have a long fascination with data, computer language, and modeling. I am proficient in data extraction, data wrangling, data visualization and building machine learning models for prediction with R, Python and SQL. You can find my machine learning and data analysis project below. Thanks.
-
-I possess 4-year of marketing experience and am currently pursuing a master degree for Business Analytics
+Hi, I am a Master of Science in Business Analytics student at Brandeis University and a professional marketer with 4-year advertising experiences. I enjoy digging into complex data sets and uncover interesting, actionable insights to solve business problems.  I am proficient in data extraction, data wrangling, data visualization and building machine learning models for prediction with Python, R and SQL. This portfolio is a compilation of all the data science and data analysis projects I have done for academic, self-learning and hobby purposes. All projects are presented in the form of Jupyter Notebooks.
 
 
 
-This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. All projects are presented in the form of Jupyter Notebooks.
-
-[Personal Website](https://crystalwanyulee.github.io/)
+For a more visually pleasant experience for browsing the portfolio, check out [crystalwanyulee.github.io](http://crystalwanyulee.github.io/)
 
 
 
@@ -57,8 +47,6 @@ Visualization Tools: Tableau
 **Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** Applied the algorithm I built from scratch and gained F1 score to 77%. Identified 20 important words for classifying positive and negative words.  
 
 <br />
-
-
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[2. Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_exploratory.ipynb)**
 
@@ -86,19 +74,11 @@ Visualization Tools: Tableau
 
 **Purpose:** <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** <br/>
 
-
-
 <br />
-
-
 
 <img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg">**[6. Research on COVID-19 Comorbidity](https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg)**
 
 **Purpose:** <br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** <br/>
-
-
-
-
 
 
 
