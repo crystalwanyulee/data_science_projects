@@ -4,10 +4,9 @@
 
 
 <p align="center" style="font-size:16pt">
-  <b>-- Contents --</b><br>
   <a href="#about">About</a>   |
   <a href="#skills">Skills</a>   |
-  <a href="#projects">Project</a>    |
+  <a href="#projects">Projects</a>    |
   <a href="#natrual-language-processing">NLP</a>    |  
   <a href="#miscellaneous">Miscellaneous</a>  
   <br><br>
