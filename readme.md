@@ -1,5 +1,5 @@
 # Data Science Portfolio - Crystal Lee
-<img align="middle" width="1200" height="600" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/images/photo-1527474305487-b87b222841cc.jpg?raw=true">
+<img align="middle" width="800" height="400" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/images/photo-1527474305487-b87b222841cc.jpg?raw=true">
 
 
 
@@ -23,11 +23,7 @@ R:
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Clothing Reviews Sentiment Analysis](https://github.com/archd3sai/Instacart-Market-Basket-Analysis)**
 
-Purpose: Understand customers' attitudes toward the business 
-
-Methods: Naive Bayes Algorithm, Machine Learning
-
-Results: Applied the algorithm I built from scratch and gained F1 score to 77%. Identified 20 important words for classifying positive and negative words.  
+**Purpose:** Understand customers' attitudes toward the business    **Methods:** Naive Bayes Algorithm, Machine Learning (Classification)                                   **Results:** Applied the algorithm I built from scratch and gained F1 score to 77%. Identified 20 important words for classifying positive and negative words.  
 
 <br />
 
@@ -35,11 +31,7 @@ Results: Applied the algorithm I built from scratch and gained F1 score to 77%. 
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_exploratory.ipynb)**
 
-**Purpose:** Discover insights from the status quo
-
-**Method:** Descriptive Statistics, Cohort Analysis, Visualization
-
-**Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
+**Purpose:** Discover insights from the status quo                                     **Method:** Descriptive Statistics, Cohort Analysis, Visualization                         **Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
 
 <br />
 
@@ -47,10 +39,7 @@ Results: Applied the algorithm I built from scratch and gained F1 score to 77%. 
 
 <img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/people-girl_ECJ7KWKEVA.jpg"> **[E-Commerce Customer Segmentation](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_rfm_%26_clustering.ipynb)**
 
-* - **Purpose:** Identity current customer groups 
-  - **Methods:** Conducted feature engineering by RFM analysis and grouped customers by K-means
-
-**Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
+* - **Purpose:** Identity current customer groups                                                     **Methods:** RFM analysis, K-means, Machine Learning (Clustering)                                                                                        **Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
 
 <br />
 
