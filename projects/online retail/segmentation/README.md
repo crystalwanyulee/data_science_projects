@@ -2,7 +2,7 @@
 
 <br/>
 
-Table of Contents
+#### **Table of Contents**
 
   * [Part 1. STP Model and Business Problems](#part-1-stp-model-and-business-problems) 
   * [Part 2. What is RFM Analysis?](#part-2-what-is-rfm-analysis-)
@@ -18,7 +18,9 @@ Table of Contents
 
 Due to limited resources and different customer needs, customer segmentation is a crucial way to help businesses efficiently communicate with potential customers and maximize their benefits. 
 
-  <img align="middle" src="images/STP_04-2.png">
+<p align="center">
+    <img align="middle" src="images/STP_04-2.png">
+</p>
 
 Customer segmentation is the first step of **STP marketing model**, which is a simple and common framework of market segmentation. The goal is to identify a business's current customers and further categorize them based on some characteristics or behavior. Once companies know who their customers are, they can choose some groups as targets and tailor appropriate marketing strategies to communicate with them. It is the process of the subsequent steps, and I will cover them in the next two articles.
 
@@ -38,7 +40,9 @@ To begin with, I will create new features to depict customer behavior through **
 
 RFM analysis is to use three indicators, recency(R), frequency(F), and monetary(M), to quantify an individual customer's purchase history. To make concepts easier to understand, I present their definition and relationships in the following graph. 
 
-<img align="middle" src="images/STP_01.png">
+<p align="center">	
+	<img align="middle" src="images/STP_01.png">
+</p>
 
 - In all features other than recency, higher values are better.
 - Recency is more or less associated with retention since we can determine whether a customer is active or not from it.
@@ -54,7 +58,9 @@ Now, it's time to create RFM and lifetime features.
 - To calculate recency, I defined a snapshot date as December 9, 2011, which is the next day of the last order.
 - Since only recency prefers lower values, here I took negative recency to make all features have the same evaluation.
 
-![img](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\online retail\segmentation\images\Image_extra-1379.png)
+<p align="center">	
+	<img align="middle" src="images/Image_extra-1379.png">
+</p>
 
 The new structure exhibits each customer's purchase behavior in each row. For instance, Customer ID 12347 had been alive for 1 year and his or her last purchase was 3 days ago. Plus, he or she had created 7 orders and brought about 4,310 dollars. 
 
@@ -62,7 +68,9 @@ The new structure exhibits each customer's purchase behavior in each row. For in
 
 #### 1. Checking distributions of new features
 
-<img align="middle" src="images/Distribution-of-RFM-before-removing-outliers.png">
+<p align="center">	
+	<img align="middle" src="images/Distribution-of-RFM-before-removing-outliers.png">
+</p>
 
 <br/>
 
@@ -71,7 +79,9 @@ The new structure exhibits each customer's purchase behavior in each row. For in
 - Definition of outliers: the observations with the value of frequency or monetary exceeding the value in the 99.5 percentile.
 - In this case, lifetime and recency are not appropriate to remove outliers, so I did not consider them in recognition of outliers.
 
-<img align="middle" src="images/Distribution-of-RFM-after-removing-outliers.png">
+<p align="center">	
+	<img align="middle" src="images/Distribution-of-RFM-after-removing-outliers.png">
+</p>
 
 - Although skewness still exists, the distributions look better now, and features are able to be applied in the subsequent clustering task.
 
@@ -93,7 +103,9 @@ Since K-means is a distance-based model, the vast difference between scales of v
 
 K-means requires us to define the number of clusters in advance. To find the optimal one, I tried different values from 2 to 10 to run the model and evaluated the results through two metrics, WSS and Silhouette score. 
 
-<img align="middle" src="images/The-best-k-for-clustering.png">
+<p align="center">	
+	<img align="middle" src="images/The-best-k-for-clustering.png">
+</p>
 
 WSS measures how compressed each cluster is, and thus it is better to have a low WSS. Yet, the lower WSS is, the more clusters the model produces. Typically, it is unnecessary to have lots of small groups because it is hard to sketch some patterns. Thus, it is common to use the elbow method to find a turning point where WSS starts to decline slowly. In our case, the turning point is probably located at 4 or 5.
 
@@ -105,7 +117,9 @@ Another indicator is the Silhouette score, which measures the distance between c
 
 Now, I will use k=5 to apply the K-Means algorithm again. Since the algorithm could not identify which cluster is better, I compared the average values in each variable and ranked each cluster as the following. To make clusters vivid and inspire more insight, I relabeled them to express their behavior and personas, and I will explain those naming later. 
 
-<img align="middle" src="images/Image_extra-1388.png">
+<p align="center">	
+	<img align="middle" src="images/Image_extra-1388.png">
+</p>
 
 
 
@@ -115,7 +129,9 @@ Now, I will use k=5 to apply the K-Means algorithm again. Since the algorithm co
 
 To inspect the relationships between cluster, I map all data points into 2 dimensional space through [princial component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) and depict their positions in a scatter plot. 
 
-<img align="middle" src="images/Separation-when-k5.png">
+<p align="center">	
+	<img align="middle" src="images/Separation-when-k5.png">
+</p>
 
 - Overall, clusters are separated pretty well. Overlapping is not apparent, meaning that most observations are classified into correct groups.
 - VIP and Regular Customers spread wider and have a higher variation. Conversely, Casual Buyers, Novices, and Sleepers are more condensed and are closer to each other.
@@ -124,7 +140,9 @@ To inspect the relationships between cluster, I map all data points into 2 dimen
 
 #### 2. Distributions
 
-<img align="middle" src="images/Distributions-when-k5.png">
+<p align="center">	
+	<img align="middle" src="images/Distributions-when-k5.png">
+</p>
 
 - Most customers belong to Casual or Novice Buyers.
 - Profitable customers, including the VIP and Loyal groups, merely occupy 10% of customers.
@@ -135,9 +153,9 @@ To inspect the relationships between cluster, I map all data points into 2 dimen
 
 To easily distinguish clusters, I used the scaled data to calculate the average value and visualized the results in a snake plot. The x-axis represents features and the y-axis shows z-scores, which indicates the distance from mean value of the entire population. 
 
-<img align="middle" src="images/Distinctions-when-k5.png">
-
-
+<p align="center">	
+	<img align="middle" src="images/Distinctions-when-k5.png">
+</p>
 
 We can recognize different cluster from at least one feature, and clusters can be roughly divided into three levels:
 
@@ -149,7 +167,9 @@ We can recognize different cluster from at least one feature, and clusters can b
 
 #### 4. Active Periods
 
-<img align="middle" src="images/Active-Periods-of-Clusters.png">
+<p align="center">	
+	<img align="middle" src="images/Active-Periods-of-Clusters.png">
+</p>
 
 - The first three groups have stayed for a while and are currently active.
 - Whether Novice buyers are still alive is uncertain. They may stop purchasing and follow the path of the Probably Dead Buyers. Or, they may just in the break between purchases. 
@@ -158,7 +178,9 @@ We can recognize different cluster from at least one feature, and clusters can b
 
 #### 5. Average Days between Purchases
 
-<img align="middle" src="images/Average-Days-Between-Purchases.png">
+<p align="center">	
+	<img align="middle" src="images/Average-Days-Between-Purchases.png">
+</p>
 
 - VIP and Loyal Customers usually make at least one order every month, whereas Casual Buyers purchase about every three months. 
 - The Novice and Probably Dead groups have a shorter lifetime, so the average time of the gap is more likely to be shorter.
@@ -167,7 +189,9 @@ We can recognize different cluster from at least one feature, and clusters can b
 
 #### 6. Average Spending Each Time
 
-<img align="middle" src="images/Average-Spending-Each-Time.png">
+<p align="center">	
+	<img align="middle" src="images/Average-Spending-Each-Time.png">
+</p>
 
 - The VIP group's average spending in each order is far higher than in other groups. It reveals that how powerful and loyal the group is.
 - It is noteworthy that although Casual Buyers have been retained for a long time, their spending in each time is not higher than the bottom two groups.
@@ -188,7 +212,9 @@ We can recognize different cluster from at least one feature, and clusters can b
 
 ## Part 7. The Potential Problem for the Business
 
- <img align="middle" src="images/Sales-Change-with-and-without-Outliers.png">
+<p align="center">	
+	<img align="middle" src="images/Sales-Change-with-and-without-Outliers.png">
+</p>
 
 - Outliers are powerful and able to bring a huge impact to the business.
 - Only 80 customers support approximately 40% of sales. It has pros and cons. The good news is that the corporate has exceptionally loyal customers. The bad news is that the business exceedingly relies on a small proportion of customers, and it will lose a lot if some of them leave.
