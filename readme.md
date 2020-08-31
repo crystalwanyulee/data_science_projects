@@ -11,11 +11,13 @@ This Portfolio is a compilation of all the Data Science and Data Analysis projec
 
 ## Tools
 
-Python
+Programming Languages:
 
-R: 
+* Python: Pandas, Numpy, Matplotlib, Seaborn, scikit-learn, Tensorflow, keras, nltk
+* R: data.table, tidyverse, ggplot2
+* MySQL
 
-
+Visualization Tools: Tableau
 
 
 
@@ -39,7 +41,7 @@ R:
 
 <img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/people-girl_ECJ7KWKEVA.jpg"> **[E-Commerce Customer Segmentation](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_rfm_%26_clustering.ipynb)**
 
-* - **Purpose:** Identity current customer groups                                                     **Methods:** RFM analysis, K-means, Machine Learning (Clustering)                                                                                        **Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
+**Purpose:** Identity current customer groups<br/>**Methods:** RFM analysis, K-means, Machine Learning (Clustering)<br/>**Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
 
 <br />
 
