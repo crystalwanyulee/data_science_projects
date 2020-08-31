@@ -1,5 +1,5 @@
 # Data Science Portfolio - Crystal Lee
-<img align="middle" width="800" height="400" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/images/photo-1527474305487-b87b222841cc.jpg?raw=true">
+<img align="middle" width="800" height="400" src="images/cover.jpg">
 
 
 
