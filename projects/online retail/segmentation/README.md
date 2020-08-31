@@ -18,14 +18,9 @@
 
 Due to limited resources and different customer needs, customer segmentation is a crucial way to help businesses efficiently communicate with potential customers and maximize their benefits. 
 
-<<<<<<< HEAD
 <p align="center">
     <img align="middle" src="images/STP_04-2.png">
 </p>
-=======
-  <img align="center" src="images/STP_04-2.png">
->>>>>>> f6e6f498e6e668aba03eaecd3ae47e68925805eb
-
 Customer segmentation is the first step of **STP marketing model**, which is a simple and common framework of market segmentation. The goal is to identify a business's current customers and further categorize them based on some characteristics or behavior. Once companies know who their customers are, they can choose some groups as targets and tailor appropriate marketing strategies to communicate with them. It is the process of the subsequent steps, and I will cover them in the next two articles.
 
 In general, customer segmentation can answer the following business questions:
@@ -33,8 +28,6 @@ In general, customer segmentation can answer the following business questions:
 - Who are our customers? 
 - What do our current customers look like? 
 - Which groups are worth to invest? 
-
-<br/>
 
 To begin with, I will create new features to depict customer behavior through **RFM analysis**. Although the dataset presented details of each transaction, it isn't easy to see information about customers. RFM analysis can transform the transaction-level data into customer-level data by summarizing their purchase outcomes. This process is also called **feature engineering**. Subsequently, I will implement **K-means clustering** to divide customers into different groups depending on the RFM features. At last, I will build customer personas to characterize these clusters. 
 
