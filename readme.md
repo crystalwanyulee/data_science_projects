@@ -11,7 +11,7 @@
   <a href="#natrual-language-processing">NLP</a>    |  
   <a href="#miscellaneous">Miscellaneous</a>  
   <br><br>
-  <img align="middle" width="600" height="300" src="images/cover.jpg"
+  <img align="middle" width="600" height="300" src="images/cover.jpg">
   <br><br>
 
 </p>
