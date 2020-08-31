@@ -48,7 +48,7 @@ Visualization Tools: Tableau
 
 <br />
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[2. Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_exploratory.ipynb)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[2. Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/online%20retail/exploratory)**
 
 **Purpose:** Discover insights from the status quo <br/>**Method:** Descriptive Statistics, Cohort Analysis, Visualization<br/>**Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
 

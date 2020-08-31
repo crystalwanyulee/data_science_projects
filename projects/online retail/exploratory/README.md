@@ -1,15 +1,11 @@
 # Know your business through Exploratory Analysis and Cohort Analysis
 
-<br/>
-
 #### Table of Contents
 
 * [Dataset](#dataset)
 * [Exploratory Analysis](#part-1-exploratory-analysis)
 * [Cohort Analysis](#part-2-cohort-analysis)
 * [Conclusion](#--conclusion--)
-
-<br/>
 
 ## Dataset
 
@@ -23,7 +19,7 @@ In this project, I use a dataset concerning online retail from [UCI ML repositor
 
 ## Part 1. Exploratory Analysis
 
-#### 1. Monthly Sales
+### 1. Monthly Sales
 
 The goal of marketing is to increase revenue, so it is a good start to investigate the company's profitability.
 
@@ -38,7 +34,7 @@ Two observations from the monthly retail sales:
 
 <br/>
 
-#### 2. The Growth Rate of Sales
+### 2. The Growth Rate of Sales
 
 <p align="center">	
 	<img align="middle" src="images/The-Growth-Rate-of-Monthly-Sales.png">
@@ -49,7 +45,7 @@ Two observations from the monthly retail sales:
 
 <br/>
 
-#### 3. The Composition of Customer for each Month
+### 3. The Composition of Customer for each Month
 
 <p align="center">	
 	<img align="middle" src="images/The-Composition-of-Customers-by-Month.png">
@@ -61,7 +57,7 @@ Two observations from the monthly retail sales:
 
 <br/>
 
-#### 4. Investigating Customers in August and September
+### 4. Investigating Customers in August and September
 
 <p align="center">	
 	<img align="middle" src="images/Joining-Months-of-Customers-in-August-and-September.png">
@@ -75,7 +71,7 @@ To investigate what actually happened in August and September, I compare custome
 
 <br/>
 
-#### 5. Source of Revenue
+### 5. Source of Revenue
 
 <p align="center">	
 	<img align="middle" src="images/Sources-of-Sales.png">
@@ -92,7 +88,7 @@ As I observed before, new customers usually did not instantly generate high valu
 
 <br/>
 
-#### 1. Retention Rate 
+### 1. Retention Rate 
 
 I categorize customers into 10 groups according to the month of their first purchase and inspect how the retention rate fluctuated across months. Each row represents a group. For instance, row Jan means those customers who made their first order in January 2011. Columns are relative to the number of months customers had retained. The darkness of colors shows the retention rate. If the color is close to dark red, the retention rate is higher. 
 
@@ -105,7 +101,7 @@ I categorize customers into 10 groups according to the month of their first purc
 
 <br/>
 
-#### 2. Average Spending for an Individual Customer
+### 2. Average Spending for an Individual Customer
 
 <p align="center">	
 	<img align="middle" src="images/Revenue-Heatmap.png">
