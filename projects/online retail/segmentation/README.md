@@ -18,7 +18,7 @@ Table of Contents
 
 Due to limited resources and different customer needs, customer segmentation is a crucial way to help businesses efficiently communicate with potential customers and maximize their benefits. 
 
-  <img align="middle" src="images/STP_04-2.png">
+  <img align="center" src="images/STP_04-2.png">
 
 Customer segmentation is the first step of **STP marketing model**, which is a simple and common framework of market segmentation. The goal is to identify a business's current customers and further categorize them based on some characteristics or behavior. Once companies know who their customers are, they can choose some groups as targets and tailor appropriate marketing strategies to communicate with them. It is the process of the subsequent steps, and I will cover them in the next two articles.
 
