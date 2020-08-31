@@ -33,7 +33,7 @@ Results: Applied the algorithm I built from scratch and gained F1 score to 77%. 
 
 
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Exploratory the Business Operation of an E-Commerce](https://github.com/archd3sai/News-Articles-Recommendation)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_exploratory.ipynb)**
 
 **Purpose:** Discover insights from the status quo
 
@@ -45,28 +45,12 @@ Results: Applied the algorithm I built from scratch and gained F1 score to 77%. 
 
 
 
-<img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/people-girl_ECJ7KWKEVA.jpg"> **[E-Commerce Customer Segmentation](https://github.com/archd3sai/Customer-Survival-Analysis-and-Churn-Prediction)**
+<img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/people-girl_ECJ7KWKEVA.jpg"> **[E-Commerce Customer Segmentation](https://github.com/crystalwanyulee/data_science_projects/blob/master/online_retail_rfm_%26_clustering.ipynb)**
 
 * - **Purpose:** Identity current customer groups 
   - **Methods:** Conducted feature engineering by RFM analysis and grouped customers by K-means
 
 **Results:** Recognized 5 consumer groups &mdash; VIP, Loyal, Casual, Novice and Probably Dead &mdash; and found sales heavily relies on a few customers, which probably is a potential risk for the business.
-
-
-
-
-
-In this project I have utilized non-parametric survival analysis methods such as Kaplan-Meier and log-rank test to see how the likelihood of the customer churn changes over time. I also implementd Random Forest to accurately predict the probability of a customer churning and deployed a model using flask web app.  
-
-<br />
-
-
-
-
-
-
-
-
 
 <br />
 
