@@ -1,0 +1,127 @@
+---
+title: "Channel Attribution"
+author: "Wanyu(Crystal) Lee"
+date: "9/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(data.table)
+library(knitr)
+library(kableExtra)
+library(ChannelAttribution)
+```
+
+## Dataset
+The dataset is from [an article in Medium](https://towardsdatascience.com/marketing-channel-attribution-with-markov-chains-in-python-part-2-the-complete-walkthrough-733c65b23323). It tracked customer journeys from July 1, 2018, to July 31, 2018, and detailedly recorded when each ad showed up, which customer it reached, and whether the customer successfully converted. 
+
+For example, for the first cookie, its journey includes four states: Instagram > Online Display > Online Display > Online Display. Unfortunately, the user did not convert during the observed period, and thus both conversion and conversion value are 0.
+
+```{r}
+dt = fread('attribution data.csv')
+
+head(dt) %>% kable() %>%
+           kable_styling(bootstrap_options = "striped",
+                         full_width = F, 
+                         position="center")
+```
+
+* **cookie:** used for identifying unique customers 
+* **time**
+* **interaction:** "impression" or "conversion". 
+* **conversion:** 0 or 1
+* **conversion_value:** how much values a consumer brings about after conversion
+* **channel:** including "Facebook", "Instagram", "Online Display", "Online Video", and "Paid Search"
+
+
+
+## Preprocessing
+
+In order to apply the Markov Chain model, we have to transform our data and create a path variable like our previous example. Here I used `data.table` to deal with our data because it can process data much more quickly than `data.frame`.
+
+```{r}
+library(lubridate)
+library(stringr)
+
+dt = dt[order(cookie, time),time:=ymd_hms(time)][,id := seq_len(.N), by = cookie]
+
+dt_wide = dcast(data = dt, formula = cookie ~ id, value.var = "channel")
+dt_wide = dt_wide[, path:=do.call(paste,c(.SD, sep=' > ')), .SDcols=-1]
+dt_wide = dt_wide[, path:=word(path, 1, sep = " > NA")]
+
+conversion = dt[, .(conversion=sum(conversion), conversion_value=sum(conversion_value)), by=cookie]
+
+setkey(conversion, cookie)
+setkey(dt_wide, cookie)
+
+dt_wide = merge(dt_wide, conversion)
+
+head(dt_wide[, .(path, conversion, conversion_value)]) %>%
+           kable() %>%
+           kable_styling(bootstrap_options = "striped",
+                         full_width = F, 
+                         position="center")
+```
+
+## Markov Chain Modeling
+
+R has a great package designed for channel attribution, called ChannelAttribution. It can be used to build models based on heuristic and markovian approaches, respectively. To evaluate the Markov Chain results, I simultaneously run heuristic models and regard them as base models.
+
+```{r}
+# Apply models
+H = heuristic_models(Data = dt_wide, 
+                     var_path = 'path', 
+                     var_conv = 'conversion', 
+                     var_value='conversion_value', 
+                     sep='>')
+
+M = markov_model(Data = dt_wide, 
+                     var_path = 'path', 
+                     var_conv = 'conversion', 
+                     var_value='conversion_value', 
+                     sep='>', 
+                     order=1, 
+                     out_more=TRUE)
+
+M$result %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F, 
+                position="center")
+```
+
+
+```{r}
+H %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F, 
+                position="center")
+```
+
+
+```{r}
+M$transition_matrix %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F, 
+                position="center")
+```
+
+```{r}
+M$transition_matrix %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F, 
+                position="center")
+```
+
+```{r}
+M$removal_effects %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F, 
+                position="center")
+```
+

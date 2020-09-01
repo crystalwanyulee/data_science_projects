@@ -1,0 +1,36 @@
+"channel_from","channel_to","transition_probability"
+"(start)","Instagram",0.119188032052243
+"(start)","Paid Search",0.317398837189931
+"(start)","Facebook",0.278408049710963
+"(start)","Online Video",0.14236093757809
+"(start)","Online Display",0.142644143468772
+"Instagram","Online Display",0.0222310126582278
+"Instagram","(null)",0.432848101265823
+"Instagram","Facebook",0.443259493670886
+"Instagram","Online Video",0.0264715189873418
+"Instagram","Paid Search",0.0396835443037975
+"Instagram","(conversion)",0.0355063291139241
+"Online Display","(null)",0.702043022375959
+"Online Display","Paid Search",0.118819587071668
+"Online Display","Instagram",0.0323640687493244
+"Online Display","Online Video",0.0252729434655713
+"Online Display","Facebook",0.07525672900227
+"Online Display","(conversion)",0.046243649335207
+"Paid Search","(null)",0.721595491842946
+"Paid Search","(conversion)",0.04889930850549
+"Paid Search","Online Video",0.040285201157151
+"Paid Search","Online Display",0.0675470764730554
+"Paid Search","Facebook",0.0847752911697334
+"Paid Search","Instagram",0.0368976308516244
+"Facebook","Instagram",0.254273135750919
+"Facebook","(null)",0.579249307856397
+"Facebook","(conversion)",0.0481187309944175
+"Facebook","Online Video",0.0350746607361685
+"Facebook","Paid Search",0.0542549811646167
+"Facebook","Online Display",0.029029183497481
+"Online Video","(null)",0.710848232289286
+"Online Video","Facebook",0.0882511090200296
+"Online Video","Paid Search",0.0626428283371421
+"Online Video","Instagram",0.0367880987587937
+"Online Video","(conversion)",0.0763543487027826
+"Online Video","Online Display",0.0251153828919658
