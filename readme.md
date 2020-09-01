@@ -6,7 +6,7 @@
   <a href="#about">About</a>   |
   <a href="#skills">Skills</a>   |
   <a href="#python-and-r">Python/R</a>    |
-  <a href="#natrual-language-processing">NLP</a>    |  
+  <a href="#natural-language-processing">NLP</a>    |  
   <a href="#mysql">MySQL</a>    |    
   <a href="#tableau">Tableau</a>    |  
   <a href="#certification">Certification</a>
