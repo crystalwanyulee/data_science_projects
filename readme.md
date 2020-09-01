@@ -5,10 +5,10 @@
 <p align="center" style="font-size:12pt">
   <a href="#about">About</a>   |
   <a href="#skills">Skills</a>   |
-  <a href="#python-r">Projects</a>    |
-  <a href="#natrual-language-processing--python-">NLP</a>    |  
-  <a href="#mysql">MySQL</a>  
-  <a href="#tableau">Tableau</a>
+  <a href="#python-r">Python/R</a>    |
+  <a href="#natrual-language-processing">NLP</a>    |  
+  <a href="#mysql">MySQL</a>    |    
+  <a href="#tableau">Tableau</a>    |  
   <a href="#certification">Certification</a>
   <br><br>
   <img align="middle" width="600" height="300" src="images/cover.jpg">
@@ -38,7 +38,7 @@ Visualization Tools: Tableau
 
 
 
-## Python/R
+## Python  & R
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/archd3sai/Instacart-Market-Basket-Analysis)**
 
@@ -82,7 +82,7 @@ Visualization Tools: Tableau
 
 <br/>
 
-## Natural Language Processing (Python)
+## Natural Language Processing
 
 **Naïve Bayes Algorithm:** Learn
 
@@ -100,7 +100,7 @@ Visualization Tools: Tableau
 
 
 
-### MySQL
+## MySQL
 
 
 
