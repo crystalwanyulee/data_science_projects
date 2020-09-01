@@ -74,7 +74,7 @@ Visualization Tools: Tableau
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg">**[6. Research on COVID-19 Comorbidity](https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg)**
 
 **Purpose:** <br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** <br/>
 
