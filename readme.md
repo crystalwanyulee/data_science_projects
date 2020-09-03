@@ -84,19 +84,13 @@ Visualization Tools: Tableau
 
 ## Natural Language Processing
 
-**Naïve Bayes Algorithm:** Learn
+[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features.   
 
-**N-gram Language Model:**
+[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model): Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences.  
 
+[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging): Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging.
 
-
-**Part-of-speech Tagging with Hidden Markov Models:**
-
-
-
-**Distributional Semantics Takes the SAT Analogy Questions**:  Utilize word vectors and compute similarities between words to detect synonym and solve SAT analogy questions.
-
-
+[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions.
 
 <br/><br/>
 

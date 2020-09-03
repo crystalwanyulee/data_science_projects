@@ -1,4 +1,4 @@
-# Research on Comorbidity of COVID-19
+# Comorbidity of COVID-19
 
 
 
@@ -22,17 +22,13 @@ The COVID-19 patient dataset is a synthetic data, which is created from scratch 
 
 This dataset includes some information about patients, including demographics, diagnosis codes, and mortality. Here is what our mock data looks like:
 
-<p align="center">	
-	<img align="middle" src="images/image-20200902212330844.png">
-</p>
+![image-20200902212330844](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\image-20200902212330844.png)
 
 
 
 ## Exploratory Analysis
 
-<p align="center">	
-	<img align="middle" src="images/TOP 10 DRG.png">
-</p>
+![TOP 10 DRG](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\TOP 10 DRG.png)
 
 <p align="center">
      <i>Figure 1</i> 
@@ -42,9 +38,7 @@ This dataset includes some information about patients, including demographics, d
 
 
 
-<p align="center">	
-	<img align="middle" src="images/OddsRatio_TOP10.png">
-</p>
+![OddsRatio_TOP10](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\OddsRatio_TOP10.png)
 
 <p align="center">
      <i>Figure 2</i> 
@@ -60,9 +54,7 @@ In order to further uncover unconscious patterns, I conducted association rule m
 
 At first, I listed all kinds of combinations of features and computed their association. After filtering out relatively infrequent and unimportant associations and removing redundant and duplicate rules, we gained 616 rules in total. I showed the top 20 rules in **Table 1**.
 
-<p align="center">	
-	<img align="middle" src="images/image-20200902211941708.png">
-</p>
+![image-20200902211941708](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\image-20200902211941708.png)
 
 <p align="center">
      <i>Table 1</i> 
@@ -72,9 +64,7 @@ Each rule includes an antecedent on the left-hand side of an arrow and a consequ
 
  
 
-<p align="center">	
-	<img align="middle" src="images/image-20200902211844824.png">
-</p>
+![image-20200902211844824](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\image-20200902211844824.png)
 
 <p align="center">
      <i>Figure 3</i> 
@@ -89,9 +79,7 @@ Each row represents the left-hand side of rules, whereas each column shows the r
 
 To further investigate these rules, I selected the top 20 association rules based on the values of lift and presented them in a network diagram (**Figure 4**). Each circle is an association rule, in which the size represents support, and the color shows lift. Each feature passes through a rule and interacts with another feature. Blue arrows are the way that an antecedent heads on, while red arrows indicate where the destinations are.
 
-<p align="center">	
-	<img align="middle" src="images/image-20200902211854816.png">
-</p>
+![image-20200902211854816](C:\Users\wanyu\Documents\GitHub\data_science_projects\projects\comorbidity\image-20200902211854816.png)
 
 <p align="center">
      <i>Figure 4</i> 

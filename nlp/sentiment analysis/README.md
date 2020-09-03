@@ -63,17 +63,31 @@ Then, I perform word clouds to extract frequent words in positive reviews and ne
 </p>
 
 
+## Modeling Results
+
+
+
+### 1. Training 
+
+The model chooses 55 features during the training process. The results on the train set look pretty good. The accuracy rate achieves 0.857, which means the model can accurately predict 85.3% reviews and classify them into correct classes.
+
 
 <p align="center">	
 	<img align="middle" src="images/Image_extra-1205.png">
 </p>
 
 
+### 2. Testing
+
+After building the classification model, it's time to apply the model on the testing set. The accuracy rate is 75.5% It's a little bit overfitting, but still have a good result. 
+
 
 <p align="center">	
 	<img align="middle" src="images/image-20200831210149861.png">
 </p>
 
+
+Now, we can take a close look at which words are helpful for the machine to conduct classification.  
 
 
 <p align="center">	
