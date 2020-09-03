@@ -40,7 +40,7 @@ Visualization Tools: Tableau
 
 ## Python and R
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/archd3sai/Instacart-Market-Basket-Analysis)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis)**
 
 **Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** F1 score achieved 78.4% and identified 55 keywords for classifying positive and negative reviews.  
 
@@ -58,7 +58,7 @@ Visualization Tools: Tableau
 
 <br />
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hal-gatewood-tZc3vjPCk-Q-unsplash.jpg">**[4. Channel Attribution Modeling in Digital Marketing](https://github.com/archd3sai/Wind-Turbine-Power-Curve-Estimation)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hal-gatewood-tZc3vjPCk-Q-unsplash.jpg">**[4. Channel Attribution Modeling in Digital Marketing](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/channel%20attribution**
 
 **Purpose:** Recognize channels which contributes the most sales<br/>**Methods:** Markov Chain, Visualization<br/>
 
@@ -68,13 +68,13 @@ Visualization Tools: Tableau
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Market Shocks of COVID-19](https://github.com/archd3sai/Wind-Turbine-Power-Curve-Estimation)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
 
 **Purpose:** <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** <br/>
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://cdn.stocksnap.io/img-thumbs/960w/connected-typography_F7IIJUSSD1.jpg)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/comorbidity)**
 
 **Purpose:** <br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** <br/>
 
@@ -94,21 +94,19 @@ Visualization Tools: Tableau
 
 
 
-**Distributional Semantics Takes the SAT Analogy Questions**:   
+**Distributional Semantics Takes the SAT Analogy Questions**:  Utilize word vectors and compute similarities between words to detect synonym and solve SAT analogy questions.
 
 
 
-
+<br/><br/>
 
 ## MySQL
 
 
 
-<br/>
-
-<br/>
 
 
+<br/><br/>
 
 ## Tableau
 
@@ -116,5 +114,15 @@ Visualization Tools: Tableau
 
 
 
+<br/><br/>
+
 ## Certification
+
+
+
+
+
+<p align="center" style="font-size:12pt">
+  <a href="#about">Go Back to the Top</a>
+  <br><br>
 
