@@ -11,8 +11,9 @@
   <a href="#tableau">Tableau</a>    |  
   <a href="#certification">Certification</a>
   <br><br>
-  <img align="middle" width="600" height="300" src="images/cover.jpg">
+  <img align="middle" width="800" height="400" src="images/cover.jpg">
   <br><br>
+
 
 </p>
 
@@ -58,7 +59,7 @@ Visualization Tools: Tableau
 
 <br />
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hal-gatewood-tZc3vjPCk-Q-unsplash.jpg">**[4. Channel Attribution Modeling in Digital Marketing](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/channel%20attribution**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hal-gatewood-tZc3vjPCk-Q-unsplash.jpg">**[4. Channel Attribution Modeling in Digital Marketing](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/channel%20attribution)**
 
 **Purpose:** Recognize channels which contributes the most sales<br/>**Methods:** Markov Chain, Visualization<br/>
 
@@ -84,7 +85,7 @@ Visualization Tools: Tableau
 
 ## Natural Language Processing
 
-[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features.   
+[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features.   
 
 [**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model): Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences.  
 
