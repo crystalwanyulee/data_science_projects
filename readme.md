@@ -25,7 +25,9 @@ Hi, I am a Master of Science in Business Analytics student at Brandeis Universit
 
 This portfolio is a compilation of all the data science and data analysis projects I have done for academic, self-learning and hobby purposes. For a more visually pleasant experience for browsing the portfolio, check out [crystalwanyulee.github.io](http://crystalwanyulee.github.io/)
 
+<br/>
 
+<br/>
 
 ## Skills
 
@@ -37,7 +39,9 @@ Programming Languages:
 
 Visualization Tools: Tableau
 
+<br/>
 
+<br/>
 
 ## Python and R
 
