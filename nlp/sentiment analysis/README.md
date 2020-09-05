@@ -25,8 +25,7 @@ There are 8748 reviews in our dataset. Over 80% of reviews are positive while le
 </p>
 
 
-
-When we break down each sentence and count the frequency for each word, the results are presented in the following graph. We can notice that most of frequent words are preposition
+When we break down each sentence and count the frequency for each word, the results are presented in the following graph. We can notice that most of the frequent words are preposition, pronoun, and conjunction. These words do not provide too much information in a sentence. This kind of words is also called **stop word**. Usually, they are used to construct a sentence, so they appear very commonly in a document, and they easily show up when considering frequent words. 
 
 
 
@@ -35,14 +34,22 @@ When we break down each sentence and count the frequency for each word, the resu
 </p>
 
 
+However, stop words cannot help us catch a glimpse of the data. Thus, I remove them and calculate frequency again. The results are shown in below.  
+
 
 <p align="center">	
 	<img align="middle" src="images/Top 10 Frequent Words (without stopwords).png">
 </p>
+After removing stop words, the top 10 frequent words are totally different. If we categorize these words base on part-of-speech, then:
+
+* **noun:** top, shirt, sweater, size, color 
+* **verb:** love, like, wear, fit
+* **adjective:** great
 
 
 
-Then, I perform word clouds to extract frequent words in positive reviews and negative reviews, respectively. The more frequent a word appears in reviews, the bigger it will become. It is worth mentioning that I remove some common but meaningless in this case, including stop words (such as “the”, “is” and “and”), dress-related words ('top' and 'shirt'), and verbs (such as "look" and "think"). 
+
+Then, I further perform word clouds to extract frequent words in positive reviews and negative reviews, respectively. The more frequent a word appears in reviews, the bigger it will become. It is worth mentioning that I remove some common but meaningless in this case, including stop words (such as “the”, “is” and “and”), dress-related words ('top' and 'shirt'), and verbs (such as "look" and "think"). 
 
 <p align="center">	
 	<img align="middle" src="images/posneg_word_cloud_small.png">
@@ -55,7 +62,11 @@ Then, I perform word clouds to extract frequent words in positive reviews and ne
 </p>
 
 
+Although I remove stop words in the exploratory analysis, I will not remove them when training models. Sometimes, discarding them may not help improve models. The best way is to let the machine to select features and filter out unnecessary words.
 
+
+
+Now, let's look at sentence lengths. I calculate the number of words in each review and plot their distribution. The distribution in all reviews, positive ones and negative ones are similar. We can notice that there are two peaks in the distribution. The one is located within 20~40 words, and the other one is about 90 words. 
 
 
 <p align="center">	
@@ -69,26 +80,59 @@ Then, I perform word clouds to extract frequent words in positive reviews and ne
 
 ### 1. Training 
 
-The model chooses 55 features during the training process. The results on the train set look pretty good. The accuracy rate achieves 0.857, which means the model can accurately predict 85.3% reviews and classify them into correct classes.
-
+The model chooses 53 features during the training process. The results on the train set look pretty good. The accuracy rate achieves 0.857, which means the model can accurately predict 85.3% reviews and classify them into correct classes.
 
 <p align="center">	
-	<img align="middle" src="images/Image_extra-1205.png">
+	<img align="middle" src="images/image-20200905123050720.png">
 </p>
 
+</br>
 
 ### 2. Testing
 
 After building the classification model, it's time to apply the model on the testing set. The accuracy rate is 75.5% It's a little bit overfitting, but still have a good result. 
 
-
 <p align="center">	
-	<img align="middle" src="images/image-20200831210149861.png">
+	<img align="middle" src="images/image-20200905123023457.png">
 </p>
 
 
-Now, we can take a close look at which words are helpful for the machine to conduct classification.  
 
+Now, we can take a close look at which words help the machine to conduct classification. Although the model selects 53 features, we do not know which features can be used to identify positive reviews and versa. Thus, I make use of the likelihood ratio to help determine their tones. Here is the formula:
+
+
+$$
+Likelihood\;Ratio = \max_{i,j}\frac{P(w|c_i)}{P(w|c_j)}
+$$
+
+
+At first, we have to calculate conditional probabilities, given that a word appears in positive reviews or negative reviews. Next, we can calculate two kinds of ratios: the positive-negative likelihood ratio and the negative-positive ratio. The former is to divide the positive probability by the negative probability, and the latter is to divide the negative probability by the positive probability. Lastly, by comparing two ratios, we can decide their tones. The following is the likelihood ratio calculation for the first 5 features. 
+
+<p align="center">	
+	<img align="middle" src="images/image-20200905130008046.png">
+</p>
+
+
+
+Take the word "comfortable" as an example. To calculate the likelihood ratio, first find out the conditional probabilities:
+
+$P(comfortable|positive) = 0.001615$, 
+
+$P(comfortable|negative) = 0.000263$. 
+
+
+
+Then, calculate the ratios:
+
+ $Pos\text{-}Neg\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.001615}{0.000263}=6.13$. 
+
+ $Neg\text{-}Pos\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.000263}{0.001615}=0.16$. 
+
+Obviously, the positive-negative ratio is much higher than the other one, and thus we can regard "comfortable" as a positive word. 
+
+However, If we look at the word "cheap", we can discover that its negative-positive ratio is far higher than its opposite one (25.43 > 30.66). Therefore, "cheap" can be labeled as a negative word in this case.
+
+After computing all likelihood ratios, I select the top 10 positive and negative features and present the results below.
 
 <p align="center">	
 	<img align="middle" src="images/Top Imporant Words for Classification.png">
@@ -96,3 +140,29 @@ Now, we can take a close look at which words are helpful for the machine to cond
 
 
 
+| Positive                                                     | Negative                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **noun:** jeans, pants, drapes<br>**verb:** gives, run<br/>**adjective:** best, paired, wonderful, comfortable <br/>**adverb:** highly | **noun:** idea<br>**verb:** returned, hopes, expected, started, hung<br/>**adjective:** disappointed, cheap, poor, unflattering |
+
+
+
+From the results, it seems that our customers like pants (especially jeans), clothing with drapes, and paired clothing sets.  
+
+<p align="center">	
+	<img align="middle" width='200' height='300' src="https://images.unsplash.com/photo-1547410701-73b5a0ada51d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80">
+    <img align="middle" width='200' height='300' src="https://images.unsplash.com/flagged/photo-1557310298-9d6633ff5b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+    <img align="middle" width='200' height='300' src="https://images.unsplash.com/photo-1582517016090-78e80111a877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=647&q=80">
+
+
+
+In the negative part, there are several emotional words. From these words, we can guess that the customer tend to leave unfavorable reviews if clothes have a bad quality(cheap, poor) or terrible design(idea), make people looks terrible(unflattering).
+
+
+
+## Conclusion and Application
+
+* The sentiment analysis model can provide an outline of what customers think about our product. From the features that the model selected, they gives us some ideas about which aspects we can focus or improve.
+  * some insights , it can help the company grasp some insights from that and give some ideas . For example, if customer loves their jeans, the firm can focus on jeans and make some customized strategies. 
+* more data, improve the model
+* Analyze a specific time period and evaluate the performance of marketing campaigns
+* Apply the model for unlabeled data, such as social media. 

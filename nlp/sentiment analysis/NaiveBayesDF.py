@@ -37,7 +37,7 @@ class NaiveBayes():
         # Transform a document into a series of token words
         text = text.split(' ')
         # Remove noncharacters
-        text = [i for i in text if i.isalpha()]
+        text = [str(i).lower() for i in text if i.isalpha()]
         
         return text
 
@@ -389,5 +389,3 @@ class NaiveBayes():
         
         return final_features, best_evaluation
     
-
-
