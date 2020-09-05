@@ -6,7 +6,9 @@
 
 Predictive models can show the relationships between mortality and symptoms but cannot reveal how different symptoms interact with each other and which features often co-exist. Some diseases might appear more frequently on the patients who died. Some disorders are possible to be accompanied with specific symptoms. These conditions are likely to be the reasons to increase the death rate of COVID-19.
 
- 
+ </br>
+
+</br>
 
 ## Tools
 
@@ -14,7 +16,9 @@ Python: Data Wrangling and Visualization ([Jupyter Notebook](https://github.com/
 
 R: Association Analysis ([Rpub Link](https://rpubs.com/crystalwanyulee/656668))
 
+</br>
 
+</br>
 
 ## Dataset
 
@@ -25,7 +29,9 @@ This dataset includes some information about patients, including demographics, d
 <p align="center">	
 	<img align="middle" src="images/image-20200902212330844.png">
 </p>
+</br>
 
+</br>
 
 
 ## Exploratory Analysis
@@ -53,7 +59,9 @@ This dataset includes some information about patients, including demographics, d
 
 Moreover, I computed the probabilities of each DRG happening on the dead and recovered patients, and then compared those possibilities between two groups of patients in **Figure 2**. It is noteworthy that some categories jump out. Some categories, such as “MGENT_Benign_B”, “DERMA_Metastatic”, are never shown in the previous results. 
 
+</br>
 
+</br>
 
 ## Association Rules Mining with DGK Combination
 
