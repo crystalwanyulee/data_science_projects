@@ -10,9 +10,9 @@ Predictive models can show the relationships between mortality and symptoms but 
 
 ## Tools
 
-Python: Data Wrangling and Visualization 
+Python: Data Wrangling and Visualization ()
 
-R: Association Analysis
+R: Association Analysis ([Rpub Link](https://rpubs.com/crystalwanyulee/656668))
 
 
 
