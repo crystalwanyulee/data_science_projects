@@ -10,7 +10,7 @@ Predictive models can show the relationships between mortality and symptoms but 
 
 ## Tools
 
-Python: Data Wrangling and Visualization ()
+Python: Data Wrangling and Visualization ([Jupyter Notebook](https://github.com/crystalwanyulee/data_science_projects/blob/master/projects/comorbidity/Preprocessing%20%26%20EDA.ipynb))
 
 R: Association Analysis ([Rpub Link](https://rpubs.com/crystalwanyulee/656668))
 
@@ -31,20 +31,21 @@ This dataset includes some information about patients, including demographics, d
 ## Exploratory Analysis
 
 <p align="center">	
-	<img align="middle" src="images/TOP 10 DRG.png">
+	<img align="middle" width=700 height=450 src="images/TOP 10 DRG.png">
 </p>
+
 
 <p align="center">
      <i>Figure 1</i> 
 </p>
-
 **Figure 1** exhibits the most frequent DRG categories appearing on the dead patients. The red bars show how many percentage points the patients who died had those DRGs. The blue bars present the probability of the same DRG happening on the patients who recovered. Overall, “CVASC_Cardiac_B”, “ENDOC_MET_Diabetes”, “CVASC_Arterial_A”, “CHEST_Status_A” and “UROLG_GEN_Other_Nos_B” occur more often among dead patients. The results are consistent with the outcomes in predictive models.
 
 
 
 <p align="center">	
-	<img align="middle" src="images/OddsRatio_TOP10.png">
+	<img align="middle" width=700 height=450 src="images/OddsRatio_TOP10.png">
 </p>
+
 
 <p align="center">
      <i>Figure 2</i> 
