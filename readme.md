@@ -64,7 +64,7 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**5.[Predictive Modeling for Bank Telemarketing](https://rpubs.com/crystalwanyulee/656996)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Predictive Modeling for Bank Telemarketing](https://rpubs.com/crystalwanyulee/656996)**
 
 **Purpose:** Find out the best times to call the right customers to promote a term deposit<br/>**Methods:** Classification, Logistic Regression, KNN, Random Forest<br/>**Results:** Implemented several machine learning models and selected the best performing random forest model which had the best precision score<br/>
 
@@ -72,13 +72,13 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[6. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
 
-**Purpose:** Explore how industries react to the market crash due to COVID-19  <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** The energy sector suffers from a considerable decrease in the stock price, but technology, consumer products, and healthcare are relatively robust<br/>
+**Purpose:** Explore how industries react to the market crash due to COVID-19  <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/>**Results:** The energy sector suffers from a considerable decrease in the stock price, but technology, consumer products, and healthcare are relatively robust<br/>
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/comorbidity)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[7. Research on COVID-19 Comorbidity](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/comorbidity)**
 
 **Purpose:** Study which diseases probably co-occur within COVID-19 patients<br/>**Methods:** Association Analysis, Visualization<br/>**Results:** Summarized top 20 rules with the highest lift and further explore if causality exists between diseases<br/>
 
@@ -90,37 +90,33 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 
 
-<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png">[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
+<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>
 
-Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch
+1. [**1. Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
 
-<br/>
-
-<br/>
-
-
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1567675530747-0a4e5f8a309c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1367&q=80">[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model) 
-
-Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences
+Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch<br/>
 
 <br/>
 
 <br/>
 
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1567675530747-0a4e5f8a309c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1367&q=80"><br/>[**2. N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model) 
 
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1443188631128-a1b6b1c5c207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80">[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging) 
-
-Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging
+Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences<br/>
 
 <br/>
 
 <br/>
 
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1443188631128-a1b6b1c5c207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"><br/>[**3. Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging) 
 
+Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging<br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
+<br/>
+
+<br/>
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"><br/>[**4. Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb)  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
 
 <br/>
 
@@ -132,29 +128,33 @@ Built a supervised hidden Markov model, utilized the Brown corpus as data for tr
 
 ## MySQL
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1598217475213-268e8ec0126e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80">**[Database Design and Grocery Shopping Behavior Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** 
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1598217475213-268e8ec0126e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80"><br/>**[1. Database Design and Grocery Shopping Behavior Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** 
 
-Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products
+Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products<br/>
+
+<br/><br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80"><br/>**[2. Sales Database Buildup](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** 
+
+Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts<br/>
+
+<br/>
 
 <br/>
 
 
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80">**[Sales Database Buildup](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** 
-
-Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts
-
-<br/>
-
-<br/>
-
-
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80">**[Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"><br/>**[3. Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**
 
 Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
 
-<br/><br/>
+<br/>
+
+<br/>
+
+<br/>
 
 <p align="center" style="font-size:12pt">
   <a href="#about">Go Back to the Top</a>
