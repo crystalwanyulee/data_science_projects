@@ -90,7 +90,7 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 
 
-<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>**[1. Naïve Bayes Algorithm](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) **
+<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>[**1. Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm)
 
 Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch<br/>
 
@@ -149,4 +149,5 @@ Practice database queries bases on questions from LeetCode, W3Schools, and acade
 <p align="center" style="font-size:12pt">
   <a href="#about">[Go Back to the Top]</a>
   <br><br>
+
 
