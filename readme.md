@@ -88,13 +88,43 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 ## Natural Language Processing
 
-[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch
 
-[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model): Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences
 
-[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging): Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging
+<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png">[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
 
-[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
+Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch
+
+<br/>
+
+<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1567675530747-0a4e5f8a309c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1367&q=80">[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model) 
+
+Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences
+
+<br/>
+
+<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1443188631128-a1b6b1c5c207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80">[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging) 
+
+Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging
+
+<br/>
+
+<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
+
+<br/>
+
+<br/>
 
 <p align="right" style="font-size:12pt">
   <a href="#about">[Top]</a>
@@ -102,11 +132,27 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 ## MySQL
 
-**[Database Design and Grocery Shopping Behavior Analysis:](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1598217475213-268e8ec0126e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80">**[Database Design and Grocery Shopping Behavior Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** 
 
-**[Sales Database Buildup:](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts
+Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products
 
-**[Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**: Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
+<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80">**[Sales Database Buildup](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** 
+
+Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts
+
+<br/>
+
+<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80">**[Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**
+
+Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
 
 <br/><br/>
 
