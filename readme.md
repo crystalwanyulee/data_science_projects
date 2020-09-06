@@ -3,6 +3,7 @@
 
 
 <p align="center" style="font-size:12pt">
+    |
   <a href="#about">About</a>   |
   <a href="#skills">Skills</a>   |
   <a href="#python-and-r">Python/R</a>    |
