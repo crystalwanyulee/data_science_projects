@@ -14,7 +14,7 @@
 
 </p>
 
-## About
+# About
 
 Hi, I am a Master of Science in Business Analytics student at Brandeis University and a professional marketer with 4-year advertising experiences. I enjoy digging into complex data sets and uncover interesting, actionable insights to solve business problems.  I am proficient in data extraction, data wrangling, data visualization and building machine learning models for prediction with Python, R and SQL. Now, I am currently taking a financial concentration and courses about natural language processing(NLP) to gain deep skills to solve more and more business problems. 
 
@@ -26,7 +26,7 @@ This portfolio is a compilation of all the data science and data analysis projec
   <a href="#about">[Top]</a>
   <br><br>
 
-## Skills
+# Skills
 
 **Techniques:** Python, R, MySQL, Tableau
 
@@ -36,7 +36,7 @@ This portfolio is a compilation of all the data science and data analysis projec
   <a href="#about">[Top]</a>
   <br><br>
 
-## Python and R
+# Python and R
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis)**
 
@@ -86,11 +86,11 @@ This portfolio is a compilation of all the data science and data analysis projec
   <a href="#about">[Top]</a>
   <br><br>
 
-## Natural Language Processing
+# Natural Language Processing
 
 
 
-<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>**1. Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
+<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>**[1. Naïve Bayes Algorithm](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) **
 
 Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch<br/>
 
@@ -126,7 +126,7 @@ Constructed distributional semantic word sectors through PPMI and apply them to 
   <a href="#about">[Top]</a>
   <br><br>
 
-## MySQL
+# MySQL
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1598217475213-268e8ec0126e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80"><br/>**[1. Database Design and Grocery Shopping Behavior Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** 
 
