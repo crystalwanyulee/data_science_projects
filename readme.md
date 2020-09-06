@@ -104,8 +104,6 @@ Created unigram and bigram language models to solve the jumbled sentence task, t
 
 <br/>
 
-<br/>
-
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1443188631128-a1b6b1c5c207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"><br/>[**3. Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging) 
 
 Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging<br/>
@@ -149,6 +147,6 @@ Practice database queries bases on questions from LeetCode, W3Schools, and acade
 <br/>
 
 <p align="center" style="font-size:12pt">
-  <a href="#about">Go Back to the Top</a>
+  <a href="#about">[Go Back to the Top]</a>
   <br><br>
 
