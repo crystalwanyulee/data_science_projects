@@ -8,12 +8,9 @@
   <a href="#python-and-r">Python/R</a>    |
   <a href="#natural-language-processing">NLP</a>    |  
   <a href="#mysql">MySQL</a>    |    
-  <a href="#tableau">Tableau</a>    |  
-  <a href="#certification">Certification</a>
   <br><br>
   <img align="middle" width="800" height="400" src="images/cover.jpg">
   <br><br>
-
 
 </p>
 
@@ -25,9 +22,9 @@ Hi, I am a Master of Science in Business Analytics student at Brandeis Universit
 
 This portfolio is a compilation of all the data science and data analysis projects I have done for academic, self-learning and hobby purposes. For a more visually pleasant experience for browsing the portfolio, check out [crystalwanyulee.github.io](http://crystalwanyulee.github.io/)
 
-<br/>
-
-<br/>
+<p align="right" style="font-size:12pt">
+  <a href="#about">[Top]</a>
+  <br><br>
 
 ## Skills
 
@@ -35,21 +32,21 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 **Expertise:** Data Wrangling, Data Visualization, Predictive Modeling, Natural Language Processing
 
-<br/>
-
-<br/>
+<p align="right" style="font-size:12pt">
+  <a href="#about">[Top]</a>
+  <br><br>
 
 ## Python and R
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis)**
 
-**Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** F1 score achieved 78.1% and identified 53 keywords for classifying positive and negative reviews.  
+**Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** F1 score achieved 78.1% and identified 53 keywords for classifying positive and negative reviews
 
 <br />
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[2. Exploratory the Business Operation of an E-Commerce](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/online%20retail/exploratory)**
 
-**Purpose:** Discover insights from the status quo <br/>**Method:** Descriptive Statistics, Cohort Analysis, Visualization<br/>**Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue.
+**Purpose:** Discover insights from the status quo <br/>**Method:** Descriptive Statistics, Cohort Analysis, Visualization<br/>**Result:** Strategies works very well after August and increasing the retention rate is indeed helpful to raise revenue
 
 <br />
 
@@ -63,15 +60,13 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 **Purpose:** Recognize channels which contributes the most sales<br/>**Methods:** Markov Chain, Visualization<br/>
 
-**Results:** In the 5 channels, Facebook and Paid Search contributes 54.4% conversions, whereas Instagram has the highest conversion rate.<br/>
+**Results:** In the 5 channels, Facebook and Paid Search contributes 54.4% conversions, whereas Instagram has the highest conversion rate<br/>
 
 
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">[Predictive Modeling for Bank Telemarketing](https://rpubs.com/crystalwanyulee/656996)
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**5.[Predictive Modeling for Bank Telemarketing](https://rpubs.com/crystalwanyulee/656996)**
 
-**Purpose:** Find out the best times to call the right customers to promote a term deposit<br/>**Methods:** Classification, Logistic Regression, KNN, Random Forest<br/>
-
-**Results:** Implemented several machine learning models and selected the best performing random forest model which had the best precision score.<br/>
+**Purpose:** Find out the best times to call the right customers to promote a term deposit<br/>**Methods:** Classification, Logistic Regression, KNN, Random Forest<br/>**Results:** Implemented several machine learning models and selected the best performing random forest model which had the best precision score<br/>
 
 
 
@@ -79,53 +74,41 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
 
-**Purpose:** Explore how industries react to the market crash due to COVID-19  <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** The energy sector suffers from a considerable decrease in the stock price, but technology, consumer products, and healthcare are relatively robust.<br/>
+**Purpose:** Explore how industries react to the market crash due to COVID-19  <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** The energy sector suffers from a considerable decrease in the stock price, but technology, consumer products, and healthcare are relatively robust<br/>
 
 <br/>
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/comorbidity)**
 
-**Purpose:** Study which diseases probably co-occur within COVID-19 patients<br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** Summarized top 20 rules with the highest lift and further explore if causality exists between diseases<br/>
+**Purpose:** Study which diseases probably co-occur within COVID-19 patients<br/>**Methods:** Association Analysis, Visualization<br/>**Results:** Summarized top 20 rules with the highest lift and further explore if causality exists between diseases<br/>
 
-<br/>
-
-<br/>
+<p align="right" style="font-size:12pt">
+  <a href="#about">[Top]</a>
+  <br><br>
 
 ## Natural Language Processing
 
-[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features.   
+[**Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm): Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch
 
-[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model): Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences.  
+[**N-gram Language Model**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/n-gram%20language%20model): Created unigram and bigram language models to solve the jumbled sentence task, that is, to find which sentence is a real sentence out of 10 jumbled sentences
 
-[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging): Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging.
+[**Part-of-speech Tagging with Hidden Markov Models**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/part-of-speech%20tagging): Built a supervised hidden Markov model, utilized the Brown corpus as data for training, and gained accuracy 72% in part-of-speech tagging
 
-[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions.
+[**Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb):  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
 
-<br/><br/>
+<p align="right" style="font-size:12pt">
+  <a href="#about">[Top]</a>
+  <br><br>
 
 ## MySQL
 
-**Database Design and Grocery Shopping Behavior Analysis**: Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products 
+**[Database Design and Grocery Shopping Behavior Analysis:](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products
 
+**[Sales Database Buildup:](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts
 
-
-**Sales Database Buildup:** Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts.
-
-<br/><br/>
-
-## Tableau
-
-1. Tableau 20
-
-
+**[Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**: Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
 
 <br/><br/>
-
-## Certification
-
-
-
-
 
 <p align="center" style="font-size:12pt">
   <a href="#about">Go Back to the Top</a>
