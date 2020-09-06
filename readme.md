@@ -31,13 +31,9 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 ## Skills
 
-Programming Languages:
+**Techniques:** Python, R, MySQL, Tableau
 
-* Python: Pandas, Numpy, Matplotlib, Seaborn, scikit-learn, Tensorflow, keras, nltk
-* R: data.table, tidyverse, ggplot2
-* MySQL
-
-Visualization Tools: Tableau
+**Expertise:** Data Wrangling, Data Visualization, Predictive Modeling, Natural Language Processing
 
 <br/>
 
@@ -47,7 +43,7 @@ Visualization Tools: Tableau
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[1. Clothing E-Commerce Reviews Sentiment Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis)**
 
-**Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** F1 score achieved 78.4% and identified 55 keywords for classifying positive and negative reviews.  
+**Purpose:** Understand customers' attitudes toward the business <br/>**Methods:** Naïve Bayes Algorithm, Machine Learning (Classification) <br/>**Results:** F1 score achieved 78.1% and identified 53 keywords for classifying positive and negative reviews.  
 
 <br />
 
@@ -67,7 +63,15 @@ Visualization Tools: Tableau
 
 **Purpose:** Recognize channels which contributes the most sales<br/>**Methods:** Markov Chain, Visualization<br/>
 
-**Results:** <br/>
+**Results:** In the 5 channels, Facebook and Paid Search contributes 54.4% conversions, whereas Instagram has the highest conversion rate.<br/>
+
+
+
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">[Predictive Modeling for Bank Telemarketing](https://rpubs.com/crystalwanyulee/656996)
+
+**Purpose:** Find out the best times to call the right customers to promote a term deposit<br/>**Methods:** Classification, Logistic Regression, KNN, Random Forest<br/>
+
+**Results:** Implemented several machine learning models and selected the best performing random forest model which had the best precision score.<br/>
 
 
 
@@ -75,13 +79,13 @@ Visualization Tools: Tableau
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[5. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
 
-**Purpose:** <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** <br/>
+**Purpose:** Explore how industries react to the market crash due to COVID-19  <br/>**Methods:** Web Scraping, K-Median Clustering, Visualization<br/> <br/>**Results:** The energy sector suffers from a considerable decrease in the stock price, but technology, consumer products, and healthcare are relatively robust.<br/>
 
 <br/>
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1583946099379-f9c9cb8bc030?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">**[6. Research on COVID-19 Comorbidity](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/comorbidity)**
 
-**Purpose:** <br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** <br/>
+**Purpose:** Study which diseases probably co-occur within COVID-19 patients<br/>**Methods:** Association Analysis, Visualization<br/> <br/>**Results:** Summarized top 20 rules with the highest lift and further explore if causality exists between diseases<br/>
 
 <br/>
 
@@ -101,9 +105,11 @@ Visualization Tools: Tableau
 
 ## MySQL
 
+**Database Design and Grocery Shopping Behavior Analysis**: Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products 
 
 
 
+**Sales Database Buildup:** Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts.
 
 <br/><br/>
 
