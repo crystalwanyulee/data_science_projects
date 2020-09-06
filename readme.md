@@ -90,9 +90,7 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 
 
-<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>
-
-1. [**1. Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
+<img align="left" width="250" height="150" src="images/photo-1523665972764-0f1a218e4b95.png"><br/>**1. Naïve Bayes Algorithm**](https://github.com/crystalwanyulee/data_science_projects/tree/master/nlp/sentiment%20analysis/Naive%20Bayes%20Algorithm) 
 
 Developed and implemented a multinomial Naïve Bayes classifier using bag-of-words features from scratch<br/>
 
@@ -116,7 +114,9 @@ Built a supervised hidden Markov model, utilized the Brown corpus as data for tr
 
 <br/>
 
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"><br/>[**4. Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb)  Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
+<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"><br/>[**4. Distributional Semantics Takes the SAT Analogy Questions**](https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/distributional%20semantics/distrbutional%20semantics.ipynb)  
+
+Constructed distributional semantic word sectors through PPMI and apply them to synonym detection and solve SAT analogy questions
 
 <br/>
 
@@ -132,9 +132,7 @@ Built a supervised hidden Markov model, utilized the Brown corpus as data for tr
 
 Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products<br/>
 
-<br/><br/>
-
-
+<br/>
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80"><br/>**[2. Sales Database Buildup](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** 
 
@@ -142,15 +140,9 @@ Designed a schema of a database and built four tables, including customers, prod
 
 <br/>
 
-<br/>
-
-
-
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"><br/>**[3. Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**
 
 Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
-
-<br/>
 
 <br/>
 
