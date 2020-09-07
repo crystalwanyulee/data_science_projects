@@ -7,7 +7,7 @@
         <b>The Schema of The Database</b>
     </head>
     <br></br>
-	<img align="middle" width=900 height=450 src="database 2.png">
+	<img align="middle" width=800 height=600 src="database 2.png">
 </p>
 
 <br>
