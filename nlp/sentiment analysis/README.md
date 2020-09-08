@@ -11,8 +11,9 @@ This analysis consists of two parts. In the part 1, I will perform an explorator
 Women’s Clothing E-Commerce dataset is a real commercial data from [Kaggle](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews). It revolves around the reviews written by customers and includes 9 variables. 
 
 <p align="center">	
-	<img align="middle" src="images/Image_extra-1410.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Image_extra-1410.png?raw=true">
 </p>
+
 
 
 
@@ -21,8 +22,9 @@ Women’s Clothing E-Commerce dataset is a real commercial data from [Kaggle](ht
 There are 8748 reviews in our dataset. Over 80% of reviews are positive while less than 20% are negative. Overall, most of customers have great impression for dress products. It is a good news for businesses. However, it posts an imbalanced classification challenge because the number of positive reviews is far more than the other one. In addition, negative reviews generally is more important than positive reviews since they might cause damages to brands. To solve this problem and gain better results, I will consider other metrics rather than accuracy rate that people commonly used when training the model. 
 
 <p align="center">	
-	<img align="middle" src="images/Sentiment of Clothing Reviews.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Sentiment of Clothing Reviews.png?raw=True">
 </p>
+
 
 
 When we break down each sentence and count the frequency for each word, the results are presented in the following graph. We can notice that most of the frequent words are preposition, pronoun, and conjunction. These words do not provide too much information in a sentence. This kind of words is also called **stop word**. Usually, they are used to construct a sentence, so they appear very commonly in a document, and they easily show up when considering frequent words. 
@@ -30,16 +32,17 @@ When we break down each sentence and count the frequency for each word, the resu
 
 
 <p align="center">	
-	<img align="middle" src="images/Top 10 Frequent Words.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Top 10 Frequent Words.png?raw=true">
 </p>
+
 
 
 However, stop words cannot help us catch a glimpse of the data. Thus, I remove them and calculate frequency again. The results are shown in below.  
 
-
 <p align="center">	
-	<img align="middle" src="images/Top 10 Frequent Words (without stopwords).png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Top 10 Frequent Words (without stopwords).png?raw=true">
 </p>
+
 After removing stop words, the top 10 frequent words are totally different. If we categorize these words base on part-of-speech, then:
 
 * **noun:** top, shirt, sweater, size, color 
@@ -52,14 +55,15 @@ After removing stop words, the top 10 frequent words are totally different. If w
 Then, I further perform word clouds to extract frequent words in positive reviews and negative reviews, respectively. The more frequent a word appears in reviews, the bigger it will become. It is worth mentioning that I remove some common but meaningless in this case, including stop words (such as “the”, “is” and “and”), dress-related words ('top' and 'shirt'), and verbs (such as "look" and "think"). 
 
 <p align="center">	
-	<img align="middle" src="images/posneg_word_cloud_small.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/posneg_word_cloud_small.png?raw=true">
 </p>
 
 
 
 <p align="center">	
-	<img align="middle" src="images/Top Frequent Words (pos vs neg).png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Top Frequent Words (pos vs neg).png?raw=true">
 </p>
+
 
 
 Although I remove stop words in the exploratory analysis, I will not remove them when training models. Sometimes, discarding them may not help improve models. The best way is to let the machine to select features and filter out unnecessary words.
@@ -68,10 +72,10 @@ Although I remove stop words in the exploratory analysis, I will not remove them
 
 Now, let's look at sentence lengths. I calculate the number of words in each review and plot their distribution. The distribution in all reviews, positive ones and negative ones are similar. We can notice that there are two peaks in the distribution. The one is located within 20~40 words, and the other one is about 90 words. 
 
-
 <p align="center">	
-	<img align="middle" src="images/Distirbution of Sentence Length.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Distirbution of Sentence Length.png?raw=true">
 </p>
+
 
 
 ## Modeling Results
@@ -83,8 +87,9 @@ Now, let's look at sentence lengths. I calculate the number of words in each rev
 The model chooses 53 features during the training process. The results on the train set look pretty good. The accuracy rate achieves 0.857, which means the model can accurately predict 85.3% reviews and classify them into correct classes.
 
 <p align="center">	
-	<img align="middle" src="images/image-20200905123050720.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/image-20200905123050720.png?raw=true">
 </p>
+
 
 </br>
 
@@ -93,40 +98,41 @@ The model chooses 53 features during the training process. The results on the tr
 After building the classification model, it's time to apply the model on the testing set. The accuracy rate is 75.5% It's a little bit overfitting, but still have a good result. 
 
 <p align="center">	
-	<img align="middle" src="images/image-20200905123023457.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/image-20200905123023457.png?raw=true">
 </p>
 
 
 
 Now, we can take a close look at which words help the machine to conduct classification. Although the model selects 53 features, we do not know which features can be used to identify positive reviews and versa. Thus, I make use of the likelihood ratio to help determine their tones. Here is the formula:
 
+<p align="center">
+    <img width=300 height=50 src="https://latex.codecogs.com/gif.latex?Likelihood\;Ratio&space;=&space;\max_{i,j}\frac{P(w|c_i)}{P(w|c_j)}" title="Likelihood\;Ratio = \max_{i,j}\frac{P(w|c_i)}{P(w|c_j)}" />
 
-$$
-Likelihood\;Ratio = \max_{i,j}\frac{P(w|c_i)}{P(w|c_j)}
-$$
 
 
 At first, we have to calculate conditional probabilities, given that a word appears in positive reviews or negative reviews. Next, we can calculate two kinds of ratios: the positive-negative likelihood ratio and the negative-positive ratio. The former is to divide the positive probability by the negative probability, and the latter is to divide the negative probability by the positive probability. Lastly, by comparing two ratios, we can decide their tones. The following is the likelihood ratio calculation for the first 5 features. 
 
 <p align="center">	
-	<img align="middle" src="images/image-20200905130008046.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/image-20200905130008046.png?raw=true">
 </p>
 
 
 
 Take the word "comfortable" as an example. To calculate the likelihood ratio, first find out the conditional probabilities:
 
-$P(comfortable|positive) = 0.001615$, 
-
-$P(comfortable|negative) = 0.000263$. 
+<p align="center">
+    <img src="https://latex.codecogs.com/gif.latex?P(comfortable|positive)&space;=&space;0.001615" title="P(comfortable|positive) = 0.001615" /> </br>
+   <img src="https://latex.codecogs.com/gif.latex?P(comfortable|negative)&space;=&space;0.000263" title="P(comfortable|negative) = 0.000263" />
 
 
 
 Then, calculate the ratios:
 
- $Pos\text{-}Neg\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.001615}{0.000263}=6.13$. 
+<p align="center">
+    <img src="https://latex.codecogs.com/gif.latex?Pos\text{-}Neg\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.001615}{0.000263}=6.13" title="Pos\text{-}Neg\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.001615}{0.000263}=6.13" /></br>
+   <img src="https://latex.codecogs.com/gif.latex?Neg\text{-}Pos\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.000263}{0.001615}=0.16" title="Neg\text{-}Pos\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.000263}{0.001615}=0.16" />
 
- $Neg\text{-}Pos\;Ratio=\frac{P(\text{comfortable}|\text{pos})}{P(\text{comfortable}|\text{neg)}}=\frac{0.000263}{0.001615}=0.16$. 
+
 
 Obviously, the positive-negative ratio is much higher than the other one, and thus we can regard "comfortable" as a positive word. 
 
@@ -135,8 +141,9 @@ However, If we look at the word "cheap", we can discover that its negative-posit
 After computing all likelihood ratios, I select the top 10 positive and negative features and present the results below.
 
 <p align="center">	
-	<img align="middle" src="images/Top Imporant Words for Classification.png">
+	<img align="middle" src="https://github.com/crystalwanyulee/data_science_projects/blob/master/nlp/sentiment%20analysis/images/Top Imporant Words for Classification.png?raw=true">
 </p>
+
 
 
 
@@ -161,8 +168,5 @@ In the negative part, there are several emotional words. From these words, we ca
 
 ## Conclusion and Application
 
-* The sentiment analysis model can provide an outline of what customers think about our product. From the features that the model selected, they gives us some ideas about which aspects we can focus or improve.
-  * some insights , it can help the company grasp some insights from that and give some ideas . For example, if customer loves their jeans, the firm can focus on jeans and make some customized strategies. 
-* more data, improve the model
-* Analyze a specific time period and evaluate the performance of marketing campaigns
-* Apply the model for unlabeled data, such as social media. 
+* The sentiment analysis model can provide an outline of what customers think about our product. From the features that the model selected, they gives us some ideas about which aspects we can focus or improve. For example, from the classifiers, we can notice that customers seems to love the company's jeans, the firm can focus on developing more stylish jeans and provides special offers for customers. 
+* The more customers leave reviews, the more data we have. Thus, we can keep improve the model and even test the model on unlabeled data, such as posts on social media platforms
