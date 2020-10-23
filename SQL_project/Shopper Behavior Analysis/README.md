@@ -60,7 +60,7 @@ Private Labeled products are the products with the same brand as the supermarket
 
 
 
-### The Market Share of Private Label Products
+### 4. The Market Share of Private Label Products
 
 The expenditure share in Private Labeled products is generally constant across months, although there is a slightly upward trend from about 14.5% to 15.3%.
 
@@ -70,7 +70,7 @@ The expenditure share in Private Labeled products is generally constant across m
 
 
 
-### The Market Share of Private Label Products in Different Income Levels
+### 5. The Market Share of Private Label Products in Different Income Levels
 
 At first, I define three kinds of income level as the following:
 
@@ -98,6 +98,5 @@ When comparing expenditures between all groceries and private label in all incom
 	<img align="middle" weight=600 height=400 src="images/3-3-iii-(3).png">
 </p>
 
- 
 
- 
+
