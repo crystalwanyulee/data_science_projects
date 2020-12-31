@@ -88,8 +88,6 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 **Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash <br/>
 
-<br/>
-
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[2. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
 
 **Purpose:** A web application to calculate monthly payment for multiple loans in tables and charts <br/>**Methods:** Data Visualization, Web Application<br/>**Tools:** Python, Plotly Dash<br/>
