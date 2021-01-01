@@ -1,4 +1,4 @@
-# Data Science Portfolio - Crystal Lee
+# Data Science Portfolio by Crystal Lee
 
 
 
@@ -9,9 +9,12 @@
   <a href="#python-and-r">Python/R</a>    |
   <a href="#natural-language-processing">NLP</a>    |  
   <a href="#mysql">MySQL</a>    |    
+  <a href="#data-visualization">Visualization</a>    |  
+  <a href="#web-application">Web Application</a>    |  
   <br><br>
   <img align="middle" width="800" height="400" src="images/cover.jpg">
   <br><br>
+
 
 </p>
 
@@ -63,8 +66,6 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 **Purpose:** Find out the best times to call the right customers to promote a term deposit<br/>**Methods:** Classification, Logistic Regression, KNN, Random Forest<br/>**Results:** Implemented several machine learning models and selected the best performing random forest model which had the best precision score<br/>
 
-
-
 <br/>
 
 <img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1513596846216-48ae70153834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">**[6. Market Shocks of COVID-19](https://github.com/crystalwanyulee/data_science_projects/tree/master/projects/market%20shock)**
@@ -78,7 +79,7 @@ This portfolio is a compilation of all the data science and data analysis projec
 **Purpose:** Study which diseases probably co-occur within COVID-19 patients<br/>**Methods:** Association Analysis, Visualization<br/>**Results:** Summarized top 20 rules with the highest lift and further explore if causality exists between diseases<br/>
 
 <p align="right" style="font-size:12pt">
-  <a href="#about">[Top]</a>
+  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
   <br>
     <br>
 
@@ -100,7 +101,10 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 <br/>
 
-
+<p align="right" style="font-size:12pt">
+  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
+  <br>
+    <br>
 
 # Natural Language Processing
 
@@ -137,8 +141,9 @@ Constructed distributional semantic word sectors through PPMI and apply them to 
 <br/>
 
 <p align="right" style="font-size:12pt">
-  <a href="#about">[Top]</a>
+  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
   <br><br>
+
 
 # MySQL
 
@@ -162,8 +167,28 @@ Practice database queries bases on questions from LeetCode, W3Schools, and acade
 
 <br/>
 
-<p align="center" style="font-size:12pt">
-  <a href="#about">[Go Back to the Top]</a>
+<p align="right" style="font-size:12pt">
+  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
   <br><br>
 
+# Data Visualization
 
+<img align="left" width="169" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_women_soccer.png?raw=true"><img align="left" width="249" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_mental_disorder.png?raw=true"><img align="left" width="293" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day3_world_wealth.png?raw=true"><img align="left" width="198" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day3_homosexuality_persists.png?raw=true"> <br/>
+
+ <br/>
+
+ <br/>
+
+ <br/>
+
+ <br/>
+
+ <br/>
+
+ <br/>
+
+ <br/>
+
+<p align="center" style="font-size:12pt">
+  <a href="#data-science-portfolio-by-crystal-lee">[Go Back to the Top]</a>
+  <br><br>
