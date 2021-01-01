@@ -1,3 +1,5 @@
+
+
 # Data Science Portfolio by Crystal Lee
 
 
@@ -171,23 +173,14 @@ Practice database queries bases on questions from LeetCode, W3Schools, and acade
   <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
   <br><br>
 
-# Data Visualization
+# Data Visualization (Tableau)
 
-<img align="left" width="169" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_women_soccer.png?raw=true"><img align="left" width="249" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_mental_disorder.png?raw=true"><img align="left" width="293" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day3_world_wealth.png?raw=true"><img align="left" width="198" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day3_homosexuality_persists.png?raw=true"> <br/>
+|                                                              |                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img align="middle" width="249" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_mental_disorder.png?raw=true"> | <img align="middle" width="169" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day4_women_soccer.png?raw=true"> | <img align="middle" width="198" height="250" src="https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/images/day3_homosexuality_persists.png?raw=true"> |
+| [Tableau Public](https://public.tableau.com/profile/crystal.lee5994#!/vizhome/day4_mental_disorder/Dashboard43?publish=yes) | [Tableau Public](https://github.com/crystalwanyulee/tableau_daily_challenge/blob/main/workbooks/day4_women_soccer.twb) | [Tableau Public](https://public.tableau.com/profile/crystal.lee5994#!/vizhome/day3_homosexuality_persists/Dashboard1?publish=yes) |
 
- <br/>
 
- <br/>
-
- <br/>
-
- <br/>
-
- <br/>
-
- <br/>
-
- <br/>
 
 <p align="center" style="font-size:12pt">
   <a href="#data-science-portfolio-by-crystal-lee">[Go Back to the Top]</a>
