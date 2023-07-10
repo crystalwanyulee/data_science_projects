@@ -28,7 +28,7 @@ Hi, I am a savvy technical analyst with 4-year experience in data analytics and 
 
 This portfolio is a compilation of all the data science and data analysis projects I have done for work, academic, self-learning and hobby purposes. 
 
-
+# Skills
 
 •	Database: BigQuery, MySQL, PostgreSQL, MongoDB
 •	Programming: SQL/dbt, Python, R, JavaScript
