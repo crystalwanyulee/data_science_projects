@@ -22,17 +22,18 @@
 
 # About
 
-Hi, I am a savvy technical analyst with 4-year experience in data analytics and 2-year experience in fast-paced startup environments. Proficient in SQL, Python, dbt, and various BI tools, including Tableau and Metabase. 
+Hi, I am a savvy technical analyst with 4-year experience in data analytics and 2-year experience in fast-paced startup environments. Proficient in SQL, Python, dbt, and various BI tools, such as Tableau and Metabase. 
 
 
 
-This portfolio is a compilation of all the data science and data analysis projects I have done for academic, self-learning and hobby purposes. 
+This portfolio is a compilation of all the data science and data analysis projects I have done for work, academic, self-learning and hobby purposes. 
 
 
 
-**Software:** SQL, Python, R, MySQL, Tableau
-
-**Skills:** Data Modeling, Data Transformation and Cleaning, ETL, Web Scraping, Data Wrangling, Data Visualization, Predictive Modeling, Machine Learning Text Analysis, Natural Language Processing
+•	Database: BigQuery, MySQL, PostgreSQL, MongoDB
+•	Programming: SQL/dbt, Python, R, JavaScript
+•	Data Engineering: dbt, Airbyte, Fivetran, Airflow, Spark 	•	BI Tools: Tableau, Metabase, Google Data Studio
+•	Product & Marketing: Segment, fullstory, Jira, Google Ads, Google Analytics
 
 
 # Data Apps
