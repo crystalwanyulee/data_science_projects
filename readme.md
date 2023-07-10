@@ -41,6 +41,7 @@ This portfolio is a compilation of all the data science and data analysis projec
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_chatbot_app_1.png">**[1. Chatbot App](https://publish.acho.io/48ee6f31-36e8-4784-b746-34d890b152bd)**
 
 This Chatbot App built on Acho uses conversational AI to create human-like interactions with users by leveraging OpenAI’s text completion API and Python model. 
+<br/>
 
 
 
