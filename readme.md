@@ -45,6 +45,20 @@ This Chatbot App built on Acho uses conversational AI to create human-like inter
 <br/>
 
 
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_sales_simulation_app_1.png">**[2. Sales Simulation App with Python](https://publish.acho.io/491)**
+
+This App powered by Python utilizes the Monte Carlo model to forecast sales for a business. Monte Carlo methods are a class of computational algorithms that rely on repeated random sampling to obtain numerical results. 
+<br/>
+<br/>
+
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_digital_advertising_performance_tracking_app_1.png">**[3. Digital Advertising Performance Tracking App](https://publish.acho.io/0e311293-cb08-4ae7-a278-56642acf2749)**
+
+The digital advertising performance tracking app is a tool that helps marketers and advertisers track and measure the effectiveness of their digital advertising campaigns.
+<br/>
+<br/>
+<br/>
+
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[1. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
 
