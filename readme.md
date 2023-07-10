@@ -10,7 +10,6 @@
   <a href="#skills">Skills</a>   |
   <a href="#python-and-r">Python/R</a>    |
   <a href="#natural-language-processing">NLP</a>    |  
-  <a href="#mysql">MySQL</a>    |    
   <a href="#data-visualization">Visualization</a>    |  
   <a href="#data-apps">Data Apps</a>    |  
   <br><br>
@@ -202,32 +201,6 @@ Constructed distributional semantic word sectors through PPMI and apply them to 
   <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
   <br><br>
 
-
-# MySQL
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1598217475213-268e8ec0126e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1271&q=80"><br/>**[1. Database Design and Grocery Shopping Behavior Analysis](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Shopper%20Behavior%20Analysis)** 
-
-Created a relational database with 4 tables and 50+ million observations; queried data through MySQL and visualized results through Python Matplotlib to explore market opportunities for private label products<br/>
-
-<br/>
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80"><br/>**[2. Sales Database Buildup](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Buildup)** 
-
-Designed a schema of a database and built four tables, including customers, products, transactions and providers in order to track sales activities, relationships, and contacts<br/>
-
-<br/>
-
-<img align="left" width="250" height="150" src="https://images.unsplash.com/photo-1483736762161-1d107f3c78e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"><br/>**[3. Database Implementation](https://github.com/crystalwanyulee/data_science_projects/tree/master/SQL_project/Database%20Implementation)**
-
-Practice database queries bases on questions from LeetCode, W3Schools, and academic assignments.
-
-<br/>
-
-<br/>
-
-<p align="right" style="font-size:12pt">
-  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
-  <br><br>
 
 # Data Visualization
 
