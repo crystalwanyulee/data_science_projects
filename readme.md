@@ -22,7 +22,7 @@
 
 # About
 
-Hi, I am a Master of Science in Business Analytics student at Brandeis University and a professional marketer with 4-year advertising experiences. I enjoy digging into complex data sets and uncover interesting, actionable insights to solve business problems.  I am proficient in data extraction, data wrangling, data visualization and building machine learning models for prediction with Python, R and SQL. Now, I am currently taking a financial concentration and courses about natural language processing(NLP) to gain deep skills to solve more and more business problems. 
+Hi, I am a savvy technical analyst with 4-year experience in data analytics and 2-year experience in fast-paced startup environments. Proficient in SQL, Python, dbt, and various BI tools, including Tableau and Metabase. 
 
 
 
@@ -30,10 +30,41 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 
 
-**Software:** Python, R, MySQL, Tableau
+**Software:** SQL, Python, R, MySQL, Tableau
 
-**Skills:** Web Scraping, Data Wrangling, Data Visualization, Predictive Modeling, Machine Learning Text Analysis, Natural Language Processing
+**Skills:** Data Modeling, Data Transformation and Cleaning, ETL, Web Scraping, Data Wrangling, Data Visualization, Predictive Modeling, Machine Learning Text Analysis, Natural Language Processing
 
+
+# Data Apps
+
+
+Chatbot App
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_chatbot_app_1.png">**[1. Chatbot App](https://publish.acho.io/48ee6f31-36e8-4784-b746-34d890b152bd)**
+
+This Chatbot App built on Acho uses conversational AI to create human-like interactions with users by leveraging OpenAI’s text completion API and Python model. Both its front-end and Python model are powered by Acho to deliver an intuitive experience. This App can be embedded into any website and interact with the inbound user. The Python script can be edited to complement the existing AI model with filters, parameter adjustments, and more.
+
+
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[1. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
+
+**Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash <br/>
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[2. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
+
+**Purpose:** A web application to calculate monthly payment for multiple loans in tables and charts <br/>**Methods:** Data Visualization, Web Application<br/>**Tools:** Python, Plotly Dash<br/>
+
+<br/>
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/kartemap/images/image-20201125122321321.png">**[3. Route Planner and Network Analysis](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/kartemap)**
+
+**Purpose:** A web application to optimize travel routes and offer information about cities along the route<br/>**Methods:** Network Analysis, Data Visualization, Web Application<br/>**Results:** Python, Plotly Dash<br/>
+
+<br/>
+
+<p align="right" style="font-size:12pt">
+  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
+  <br>
+    <br>
 
 
 # Python and R
@@ -85,28 +116,7 @@ This portfolio is a compilation of all the data science and data analysis projec
   <br>
     <br>
 
-# Web Application
 
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[1. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
-
-**Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash <br/>
-
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[2. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
-
-**Purpose:** A web application to calculate monthly payment for multiple loans in tables and charts <br/>**Methods:** Data Visualization, Web Application<br/>**Tools:** Python, Plotly Dash<br/>
-
-<br/>
-
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/kartemap/images/image-20201125122321321.png">**[3. Route Planner and Network Analysis](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/kartemap)**
-
-**Purpose:** A web application to optimize travel routes and offer information about cities along the route<br/>**Methods:** Network Analysis, Data Visualization, Web Application<br/>**Results:** Python, Plotly Dash<br/>
-
-<br/>
-
-<p align="right" style="font-size:12pt">
-  <a href="#data-science-portfolio-by-crystal-lee">[Top]</a>
-  <br>
-    <br>
 
 # Natural Language Processing
 
