@@ -74,8 +74,9 @@ A data request system functions enable users to submit requests for data, dashbo
 <br/>
 <br/>
 
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_pivot_table_app_1.png">**[5. Pivot Table App]([https://publish.acho.io/409](https://publish.acho.io/67d75941-af95-4112-b0aa-99943a371c68/pivot_table))**
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_pivot_table_app_1.png">**[5. Self-service Pivot Table App](https://publish.acho.io/67d75941-af95-4112-b0aa-99943a371c68/pivot_table)**
 The pivot table app allows users to create and analyze pivot tables, which are a type of data summarization tool used in spreadsheet programs like Microsoft Excel and Google Sheets.
+<br/>
 <br/>
 <br/>
 <br/>
@@ -88,6 +89,7 @@ The pivot table app allows users to create and analyze pivot tables, which are a
 <br/>
 <br/>
 <br/>
+
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[7. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
 
