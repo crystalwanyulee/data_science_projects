@@ -60,20 +60,36 @@ The digital advertising performance tracking app is a tool that helps marketers 
 <br/>
 
 
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[1. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_data_request_system_1.png">**[4. Data Request System](https://publish.acho.io/409)**
 
-**Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash <br/>
+A data request system functions enable users to submit requests for data, dashboards, or ad-hoc reports. Data owners have visibility of the requests and can address them accordingly. 
 
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[2. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
+<br/>
+<br/>
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_pivot_table_app_1.png">**[5. Pivot Table App]([https://publish.acho.io/409](https://publish.acho.io/67d75941-af95-4112-b0aa-99943a371c68/pivot_table))**
+The pivot table app allows users to create and analyze pivot tables, which are a type of data summarization tool used in spreadsheet programs like Microsoft Excel and Google Sheets.
+<br/>
+<br/>
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[6. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
+
+**Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash 
+<br/>
+<br/>
+
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/loan_analytics/images/image-20201130174910236.png">**[7. Loan Analytics Calculator and Dashboard: ](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/loan_analytics)**
 
 **Purpose:** A web application to calculate monthly payment for multiple loans in tables and charts <br/>**Methods:** Data Visualization, Web Application<br/>**Tools:** Python, Plotly Dash<br/>
 
 <br/>
+<br/>
 
-<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/kartemap/images/image-20201125122321321.png">**[3. Route Planner and Network Analysis](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/kartemap)**
+<img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/kartemap/images/image-20201125122321321.png">**[8. Route Planner and Network Analysis](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/kartemap)**
 
 **Purpose:** A web application to optimize travel routes and offer information about cities along the route<br/>**Methods:** Network Analysis, Data Visualization, Web Application<br/>**Results:** Python, Plotly Dash<br/>
 
+<br/>
 <br/>
 
 <p align="right" style="font-size:12pt">
