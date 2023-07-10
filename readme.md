@@ -45,7 +45,7 @@ This Chatbot App built on Acho uses conversational AI to create human-like inter
 <br/>
 <br/>
 <br/>
-
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_sales_simulation_app_1.png">**[2. Sales Simulation App with Python](https://publish.acho.io/491)**
 
