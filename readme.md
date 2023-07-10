@@ -1,6 +1,6 @@
 
 
-# Data Science Portfolio by Crystal Lee
+# Data Analytics and Science Portfolio by Crystal Lee
 
 
 
