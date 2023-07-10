@@ -53,7 +53,7 @@ This App powered by Python utilizes the Monte Carlo model to forecast sales for 
 <br/>
 <br/>
 <br/>
-
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_digital_advertising_performance_tracking_app_1.png">**[3. Digital Advertising Performance Tracking App](https://publish.acho.io/0e311293-cb08-4ae7-a278-56642acf2749)**
 
@@ -61,7 +61,7 @@ The digital advertising performance tracking app is a tool that helps marketers 
 <br/>
 <br/>
 <br/>
-
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_data_request_system_1.png">**[4. Data Request System](https://publish.acho.io/409)**
 
@@ -70,9 +70,11 @@ A data request system functions enable users to submit requests for data, dashbo
 <br/>
 <br/>
 <br/>
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://asset.acho.io/acho-website-assets//live_demo/demo_pivot_table_app_1.png">**[5. Pivot Table App]([https://publish.acho.io/409](https://publish.acho.io/67d75941-af95-4112-b0aa-99943a371c68/pivot_table))**
 The pivot table app allows users to create and analyze pivot tables, which are a type of data summarization tool used in spreadsheet programs like Microsoft Excel and Google Sheets.
+<br/>
 <br/>
 <br/>
 <br/>
