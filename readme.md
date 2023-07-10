@@ -30,10 +30,11 @@ This portfolio is a compilation of all the data science and data analysis projec
 
 # Skills
 
-•	Database: BigQuery, MySQL, PostgreSQL, MongoDB
-•	Programming: SQL/dbt, Python, R, JavaScript
-•	Data Engineering: dbt, Airbyte, Fivetran, Airflow, Spark 	•	BI Tools: Tableau, Metabase, Google Data Studio
-•	Product & Marketing: Segment, fullstory, Jira, Google Ads, Google Analytics
+•	Database: BigQuery, MySQL, PostgreSQL, MongoDB <br/>
+•	Programming: SQL/dbt, Python, R, JavaScript <br/>
+•	Data Engineering: dbt, Airbyte, Fivetran, Airflow, Spark <br/>
+•	BI Tools: Tableau, Metabase, Google Data Studio <br/>
+•	Product & Marketing: Segment, fullstory, Jira, Google Ads, Google Analytics <br/>
 
 
 # Data Apps
