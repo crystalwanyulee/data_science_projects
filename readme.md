@@ -78,10 +78,12 @@ The pivot table app allows users to create and analyze pivot tables, which are a
 <br/>
 <br/>
 <br/>
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="images/chatbot.png">**[6. Virtual Movie Recommendation Assistant](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/project%203)**
 
 **Purpose:** A chatbot to help users find the movie of interest, and provide recommendations based on the chosen movie <br/>**Methods:** Web Scraping, Finite State Machine, Recommender System, Web Application<br/>**Tools:** Python, Plotly Dash 
+<br/>
 <br/>
 <br/>
 
@@ -91,11 +93,13 @@ The pivot table app allows users to create and analyze pivot tables, which are a
 
 <br/>
 <br/>
+<br/>
 
 <img align="left" style="border:1px solid lightgrey;" width="250" height="150" src="https://raw.githubusercontent.com/crystalwanyulee/plotly_dash_projects/main/kartemap/images/image-20201125122321321.png">**[8. Route Planner and Network Analysis](https://github.com/crystalwanyulee/plotly_dash_projects/tree/main/kartemap)**
 
 **Purpose:** A web application to optimize travel routes and offer information about cities along the route<br/>**Methods:** Network Analysis, Data Visualization, Web Application<br/>**Results:** Python, Plotly Dash<br/>
 
+<br/>
 <br/>
 <br/>
 
